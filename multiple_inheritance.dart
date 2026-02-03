@@ -1,13 +1,13 @@
-class Animal {
-  void eat() => print("Animal is eating");
+abstract class Animal {
+  void eat();
 }
 
-class Dog extends Animal {
-  void bark() => print("Dog is barking");
+abstract class Dog extends Animal {
+
+
 }
 
 void main() {
-  var dog = Dog();
-  dog.eat(); // from Animal
-  dog.bark(); // from Dog
+
 }
+  
